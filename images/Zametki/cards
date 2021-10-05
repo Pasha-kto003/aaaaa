@@ -1,0 +1,17 @@
+<h1>Все новости</h1>
+<div class="container flex-wrap d-flex p-10 ai-center" style="justify-content: center">
+    <?php
+    for ($i = 0; $i < 6; $i++):
+    ?>
+        <div class="card mb-10" style="width: 84%; margin: 10px; text-align: left ">
+            <div class="card-body">
+                <img src="images/AXs.png" class="card-img-left" style="float: left; margin-right: 10px" alt="..." width="300px" height="200px">
+                <h5 class="card-title">Название новости</h5>
+                <p class="card-text">Мик Гордон хочет переделать саундтрек DOOM Eternal, но авторы игры не соглашаются</p>
+                <a href="#" class="btn btn-primary">Ссылка на полную новость</a>
+            </div>
+        </div>
+    <?php
+    endfor;
+    ?>
+</div>
